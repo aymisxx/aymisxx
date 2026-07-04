@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile/ayushman-mishra.jpg" alt="Ayushman Mishra" style="width: 60%; height: auto;"/>
+<img src="assets/profile/ayushman-mishra.jpg" alt="Ayushman Mishra" style="width: 55%; height: auto;"/>
 
 # Ayushman Mishra
 
@@ -101,11 +101,13 @@ A selected set of robotics projects across **swarm autonomy**, **UAV systems**, 
 
 ## 1. PPO-Driven Swarm Control
 
-<div align="center">
-
-<img src="assets/animations/ppo-driven-swarm-control.gif" alt="PPO-Driven Swarm Control Demo" style="width: 100%; height: auto;"/>
-
-</div>
+<p align="center">
+  <img
+    src="assets/animations/ppo-driven-swarm-control.gif"
+    alt="PPO-Driven Swarm Control Demo"
+    width="520"
+  />
+</p>
 
 Hybrid multi-robot coverage-control project combining a learned PPO local navigation policy with classical swarm coordination layers.
 
