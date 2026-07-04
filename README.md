@@ -4,7 +4,7 @@
 
 ## **AYUSHMAN MISHRA (आयुष्मान् मिश्र)**
 
-### Robotics · Autonomous Systems · Controls · Perception<br>Reinforcement Learning · Swarm Intelligence
+### Robotics, Autonomous Systems, Controls, Perception,<br>Reinforcement Learning, and Swarm Intelligence.
 \
 **Sovereignty. Singularity. Control.**  
 **संप्रभुता। एकत्व। नियंत्रण।**
