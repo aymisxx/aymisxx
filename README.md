@@ -85,6 +85,8 @@ A selected set of robotics projects across **swarm autonomy**, **UAV systems**, 
 
 ## Project Index
 
+<div align="center">
+
 | Domain | Featured Project | Repository |
 |---|---|---|
 | **Swarm Autonomy** | [PPO-Driven Swarm Control](#ppo-driven-swarm-control) | [GitHub Repository](https://github.com/aymisxx/PPO-driven-Swarm-Control) |
@@ -94,6 +96,8 @@ A selected set of robotics projects across **swarm autonomy**, **UAV systems**, 
 | **Guidance & Control** | [interceptDynamics-Py](#interceptdynamics-py) | [GitHub Repository](https://github.com/aymisxx/interceptDynamics-Py) |
 | **Semantic Mapping** | [VLMaps Reimplementation](#vlmaps-reimplementation) | [GitHub Repository](https://github.com/aymisxx/vlmaps-reimplementation) |
 | **Manipulation** | [Color-Sorted Pick-and-Place in ROS](#color-sorted-pick-and-place-in-ros) | [GitHub Repository](https://github.com/aymisxx/color-sorted-pick-place-ros) |
+
+</div>
 
 ---
 
@@ -105,7 +109,7 @@ A selected set of robotics projects across **swarm autonomy**, **UAV systems**, 
   <img
     src="assets/animations/ppo-driven-swarm-control.gif"
     alt="PPO-Driven Swarm Control Demo"
-    width="520"
+    width="720"
   />
 </p>
 
