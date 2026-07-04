@@ -79,11 +79,9 @@ These earlier systems now form the technical foundation for adapting autonomy re
 
 # Featured Work
 
-A selected set of robotics projects across **swarm autonomy**, **UAV systems**, **robot perception**, **3D reconstruction**, **guidance/control**, **semantic mapping**, and **manipulation**.
-
 <a id="project-index"></a>
 
-## Project Index
+A selected set of robotics projects across **swarm autonomy**, **UAV systems**, **robot perception**, **3D reconstruction**, **guidance/control**, **semantic mapping**, and **manipulation**.
 
 <div align="center">
 
