@@ -2,7 +2,7 @@
 
 <img src="assets/profile/ayushman-mishra.png" alt="Ayushman Mishra" style="width: 55%; height: auto;"/>
 
-# Ayushman Mishra
+## **AYUSHMAN MISHRA (आयुष्मान् मिश्र)**
 
 ### Robotics, Autonomous Systems, Controls, Perception,  
 ### Reinforcement Learning, and Swarm Intelligence.
