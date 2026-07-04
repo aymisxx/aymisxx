@@ -300,7 +300,9 @@ Additional work across robotics, control, learning, perception, and simulation.
 
 ------------------------------------------------------------------------
 
-# Current Focus
+# My Engineering Philosophy & Methodology
+
+My work usually follows a simulation-first engineering loop: start with the mathematical structure, build a controlled testbed, design the controller or policy, evaluate behavior quantitatively, visualize failure modes, and only then think about deployment.
 
 <div align="center">
 
@@ -317,6 +319,14 @@ Additional work across robotics, control, learning, perception, and simulation.
 **Deployment**
 
 </div>
+
+
+I prefer systems that are:
+
+- **Model-grounded**, not just demo-driven.
+- **Measurable**, with clear metrics and failure cases.
+- **Modular**, so perception, control, planning, and learning can be tested independently.
+- **Honest**, because robotics breaks beautifully when assumptions are fake.
 
 ------------------------------------------------------------------------
 
