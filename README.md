@@ -109,7 +109,7 @@ A selected set of robotics projects across **swarm autonomy**, **UAV systems**, 
   <img
     src="assets/animations/ppo-driven-swarm-control.gif"
     alt="PPO-Driven Swarm Control Demo"
-    width="720"
+    width="800"
   />
 </p>
 
