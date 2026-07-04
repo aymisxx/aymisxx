@@ -77,15 +77,15 @@ These earlier systems now form the technical foundation for adapting autonomy re
 
 ------------------------------------------------------------------------
 
-# Featured Work
-
 <a id="project-index"></a>
+
+# Featured Work
 
 A selected set of robotics projects across **swarm autonomy**, **UAV systems**, **robot perception**, **3D reconstruction**, **guidance/control**, **semantic mapping**, and **manipulation**.
 
 <div align="center">
 
-| Domain | Featured Project | Repository |
+| Domain | Featured Work | Repository |
 |---|---|---|
 | **Swarm Autonomy** | [PPO-Driven Swarm Control](#ppo-driven-swarm-control) | [GitHub Repository](https://github.com/aymisxx/PPO-driven-Swarm-Control) |
 | **UAV Autonomy** | [TerraDrop-PX4](#terradrop-px4) | [GitHub Repository](https://github.com/aymisxx/TerraDrop-PX4) |
@@ -111,14 +111,14 @@ A selected set of robotics projects across **swarm autonomy**, **UAV systems**, 
   />
 </p>
 
-Hybrid multi-robot coverage-control project combining a learned PPO local navigation policy with classical swarm coordination layers.
+Hybrid multi-robot coverage-control algorithm combining a learned PPO local navigation policy with classical swarm coordination layers.
 
 The system mixes **PPO-based local navigation**, **artificial potential-field repulsion**, **graph-based directional consensus**, and **CRN-inspired stochastic roles** to study how learned policies can be made safer and more coherent in multi-agent coverage tasks.
 
 **Core ideas:** PPO, swarm robotics, multi-agent coverage, repulsion, graph consensus, stochastic role allocation  
 **Repository:** https://github.com/aymisxx/PPO-driven-Swarm-Control
 
-[Back to Project Index](#project-index)
+[Back to Index](#project-index)
 
 ---
 
@@ -132,14 +132,14 @@ The system mixes **PPO-based local navigation**, **artificial potential-field re
 
 </div>
 
-Compact ROS2/Gazebo/PX4 autonomous drone project for marker search, visual alignment, and precision landing.
+Compact ROS2/Gazebo/PX4 autonomous drone setup for marker search, visual alignment, and precision landing.
 
 The system uses **PX4 SITL**, **ROS2 offboard control**, **RGB camera input**, **ArUco detection**, image-plane alignment correction, and pinhole-camera range estimation to demonstrate perception-driven UAV autonomy.
 
 **Core ideas:** ROS2, PX4, Gazebo, visual servoing, ArUco detection, offboard control, UAV autonomy  
 **Repository:** https://github.com/aymisxx/TerraDrop-PX4
 
-[Back to Project Index](#project-index)
+[Back to Index](#project-index)
 
 ---
 
@@ -155,12 +155,12 @@ The system uses **PX4 SITL**, **ROS2 offboard control**, **RGB camera input**, *
 
 Reflectivity-augmented LiDAR scene-understanding framework studying whether lightweight range-aware transformations of LiDAR intensity improve semantic interpretability.
 
-The project introduces pseudo-reflectivity features, analyzes SemanticKITTI signal behavior, evaluates class separability, studies temporal consistency, and documents where range-aware signal engineering helps or fails.
+The study introduces pseudo-reflectivity features, analyzes SemanticKITTI signal behavior, evaluates class separability, studies temporal consistency, and documents where range-aware signal engineering helps or fails.
 
 **Core ideas:** LiDAR perception, reflectivity proxies, SemanticKITTI, semantic separability, sensor signal analysis  
 **Repository:** https://github.com/aymisxx/reflect-aug-seg
 
-[Back to Project Index](#project-index)
+[Back to Index](#project-index)
 
 ---
 
@@ -181,7 +181,7 @@ The pipeline uses **COLMAP sparse SfM**, dense reconstruction, stereo fusion, me
 **Core ideas:** COLMAP, photogrammetry, 3D reconstruction, lunar terrain, mesh export, ROS2 visualization  
 **Repository:** https://github.com/aymisxx/ApolloSplat-Py
 
-[Back to Project Index](#project-index)
+[Back to Index](#project-index)
 
 ---
 
@@ -202,7 +202,7 @@ The simulator models relative-state dynamics, RK4 integration, maneuvering targe
 **Core ideas:** MPC, PD guidance, pursuit-evasion, constrained control, interception dynamics, RK4 simulation  
 **Repository:** https://github.com/aymisxx/interceptDynamics-Py
 
-[Back to Project Index](#project-index)
+[Back to Index](#project-index)
 
 ---
 
@@ -218,12 +218,12 @@ The simulator models relative-state dynamics, RK4 integration, maneuvering targe
 
 Reimplementation of Visual Language Maps for language-conditioned robot navigation.
 
-The project fuses **RGB-D observations**, **camera poses**, **geometric projection**, **LSeg/CLIP-style visual-language embeddings**, and top-down spatial maps so robots can ground free-form language queries into navigable indoor environments.
+The work fuses **RGB-D observations**, **camera poses**, **geometric projection**, **LSeg/CLIP-style visual-language embeddings**, and top-down spatial maps so robots can ground free-form language queries into navigable indoor environments.
 
 **Core ideas:** semantic mapping, visual-language navigation, RGB-D projection, CLIP/LSeg concepts, open-vocabulary robot navigation  
 **Repository:** https://github.com/aymisxx/vlmaps-reimplementation
 
-[Back to Project Index](#project-index)
+[Back to Index](#project-index)
 
 ---
 
@@ -244,11 +244,11 @@ The system uses **RGB-D sensing**, **HSV color segmentation**, contour extractio
 **Core ideas:** ROS, Gazebo, RGB-D perception, HSV segmentation, 2D-to-3D projection, manipulation, finite-state machines  
 **Repository:** https://github.com/aymisxx/color-sorted-pick-place-ros
 
-[Back to Project Index](#project-index)
+[Back to Index](#project-index)
 
 ---
 
-# Broader Project Map
+# Broader Work Map
 
 Additional work across robotics, control, learning, perception, and simulation.
 
