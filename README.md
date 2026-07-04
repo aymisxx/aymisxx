@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile/ayushman-mishra.png" alt="Ayushman Mishra" width="180" style="border-radius: 50%;"/>
+<img src="assets/profile/ayushman-mishra.jpg" alt="Ayushman Mishra" style="width: 60%; height: auto;"/>
 
 # Ayushman Mishra
 
