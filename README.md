@@ -77,7 +77,7 @@ These earlier systems now form the technical foundation for adapting autonomy re
 
 ------------------------------------------------------------------------
 
-# Featured Engineering Portfolio
+# Featured Work
 
 A selected set of robotics projects across **swarm autonomy**, **UAV systems**, **robot perception**, **3D reconstruction**, **guidance/control**, **semantic mapping**, and **manipulation**.
 
