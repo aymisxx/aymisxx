@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile/ayushman-mishra.png" alt="Ayushman Mishra" style="width: 55%; height: auto;"/>
+<img src="assets/profile/ayushman-mishra.png" alt="Ayushman Mishra" style="width: 50%; height: auto;"/>
 
 ## **AYUSHMAN MISHRA (आयुष्मान् मिश्र)**
 
