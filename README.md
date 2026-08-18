@@ -257,7 +257,6 @@ Additional work across robotics, control, learning, perception, and simulation.
 - [AgriDroneRL](https://github.com/aymisxx/AgriDroneRL)
 - [DriftCTRL](https://github.com/aymisxx/DriftCTRL)
 - [SwarmNavigator](https://github.com/aymisxx/SwarmNavigator)
-- [EventReflex-DroneNav](https://github.com/aymisxx/EventReflex-DroneNav)
 
 ## Control, Guidance & Dynamics
 
