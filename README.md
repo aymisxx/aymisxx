@@ -25,7 +25,7 @@ My work explores how classical control theory and modern machine learning can co
 
 I design lightweight experimental platforms and simulation environments to study **navigation**, **coordination**, and **decision-making** in robotic systems.
 
-Beyond formal showcase work, I enjoy experimenting with autonomous agents in unconventional environments, from ultra-lightweight drone simulators to reinforcement-learning bots in classic open-source game engines such as **Doom** (id Tech 1 Engine), **Jedi Knight Dark Forces II + Mysteries of the Sith** (Sith Engine) and **Quake III Arena + OpenArena** (id Tech 3 Engine). These sandboxes help me test ideas in autonomy, control, and learning beyond conventional robotics setups.
+Beyond formal showcase work, I enjoy experimenting with autonomous agents in unconventional environments, from ultra-lightweight drone simulators to reinforcement-learning bots in classic open-source game engines such as **id Tech 1 Engine** (The Ultimate Doom, Doom II: Hell on Earth, TNT: Evilution, The Plutonia Experiment, FreeDOOM, Heretic: Shadow of the Serpent Riders and Hexen: Beyond Heretic), **Sith Engine** (Star Wars Jedi Knight and Mysteries of the Sith) and **id Tech 3 Engine** (Quake III Arena and OpenArena). These sandboxes help me test ideas in autonomy, control, and learning beyond conventional robotics setups.
 
 If you are working on interesting ideas in robotics, autonomy, intelligent systems, or unconventional autonomy experiments, feel free to reach out.
 
