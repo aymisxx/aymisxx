@@ -1,4 +1,4 @@
-# Bespin Cloud City Video Wallpaper Setup
+# Imperial Fleet Video Wallpaper Setup
 ## Pop!_OS 24.04 + COSMIC/Wayland + mpvpaper
 
 Username:
@@ -10,13 +10,13 @@ agniacolyte
 Wallpaper video location:
 
 ```text
-/usr/share/bespin_live_wall.mp4
+/usr/share/imperial_theme.mp4
 ```
 
 Goal:
 
 - MP4 as animated wallpaper
-- Audio enabled
+- Audio disabled
 - Infinite loop
 - Starts automatically after login
 - Runs without terminal
@@ -74,19 +74,19 @@ mpvpaper --help
 Place your video file here:
 
 ```text
-/usr/share/bespin_live_wall.mp4
+/usr/share/imperial_theme.mp4
 ```
 
 The final filename must be exactly:
 
 ```text
-bespin_live_wall.mp4
+imperial_theme.mp4
 ```
 
 Verify that it exists:
 
 ```bash
-ls -lh /usr/share/bespin_live_wall.mp4
+ls -lh /usr/share/imperial_theme.mp4
 ```
 
 ---
@@ -94,10 +94,10 @@ ls -lh /usr/share/bespin_live_wall.mp4
 # 7. Test the video normally
 
 ```bash
-mpv "/usr/share/bespin_live_wall.mp4"
+mpv --no-audio "/usr/share/imperial_theme.mp4"
 ```
 
-Confirm video + audio work.
+Confirm the video works.
 
 Close mpv afterward.
 
@@ -106,13 +106,14 @@ Close mpv afterward.
 # 8. Test mpvpaper manually
 
 ```bash
-mpvpaper -o "loop-file=inf --hwdec=auto" ALL "/usr/share/bespin_live_wall.mp4"
+mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL "/usr/share/imperial_theme.mp4"
 ```
 
 Expected:
 
 - Video becomes wallpaper
 - Video loops
+- No audio plays
 
 Press:
 
@@ -142,11 +143,11 @@ Replace the entire file with:
 
 ```ini
 [Unit]
-Description=MPV Bespin Cloud City Wallpaper
+Description=MPV Imperial Fleet Wallpaper
 After=graphical-session.target
 
 [Service]
-ExecStart=/usr/local/bin/mpvpaper -o "loop-file=inf --hwdec=auto" ALL /usr/share/bespin_live_wall.mp4
+ExecStart=/usr/local/bin/mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL /usr/share/imperial_theme.mp4
 Restart=always
 RestartSec=2
 
@@ -195,7 +196,7 @@ systemctl --user enable mpvpaper.service
 systemctl --user start mpvpaper.service
 ```
 
-Wallpaper + music should start.
+Wallpaper should start silently.
 
 The terminal can now be closed.
 
@@ -244,9 +245,9 @@ systemd --user
   ↓
 mpvpaper.service
   ↓
-bespin_live_wall.mp4
+imperial_theme.mp4
   ↓
-VIDEO + AUDIO + LOOP ∞
+VIDEO + NO AUDIO + LOOP ∞
 ```
 
 mpvpaper starts after the graphical user session because it requires the Wayland compositor.
@@ -255,7 +256,7 @@ mpvpaper starts after the graphical user session because it requires the Wayland
 
 # Interview / Meeting Kill Switch
 
-Stop wallpaper + audio immediately:
+Stop wallpaper immediately:
 
 ```bash
 systemctl --user stop mpvpaper.service
@@ -345,13 +346,13 @@ journalctl --user -u mpvpaper.service -n 30 --no-pager
 Test the video directly:
 
 ```bash
-mpv "/usr/share/bespin_live_wall.mp4"
+mpv --no-audio "/usr/share/imperial_theme.mp4"
 ```
 
 Test mpvpaper directly:
 
 ```bash
-mpvpaper -o "loop-file=inf --audio=yes --hwdec=auto" ALL "/usr/share/bespin_live_wall.mp4"
+mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL "/usr/share/imperial_theme.mp4"
 ```
 
 ---
@@ -361,7 +362,7 @@ mpvpaper -o "loop-file=inf --audio=yes --hwdec=auto" ALL "/usr/share/bespin_live
 Wallpaper:
 
 ```text
-/usr/share/bespin_live_wall.mp4
+/usr/share/imperial_theme.mp4
 ```
 
 mpvpaper:
@@ -392,10 +393,10 @@ Interview:
 walloff
 ```
 
-Return to horizon:
+Return to the fleet:
 
 ```bash
 wallon
 ```
 
-☁️ Bespin Cloud City forever.
+Imperial Fleet forever.
