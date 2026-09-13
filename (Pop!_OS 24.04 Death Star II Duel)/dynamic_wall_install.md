@@ -1,4 +1,4 @@
-# Cloud City Duel Video Wallpaper Setup
+# Death Star II Duel Video Wallpaper Setup
 
 ## Pop!_OS 24.04 + COSMIC/Wayland + mpvpaper
 
@@ -11,7 +11,7 @@ agniacolyte
 Wallpaper video location:
 
 ```text
-/usr/share/cloud_city_duel.mp4
+/usr/share/death_star_2_duel.mp4
 ```
 
 Goal:
@@ -75,19 +75,19 @@ mpvpaper --help
 Place your video file here:
 
 ```text
-/usr/share/cloud_city_duel.mp4
+/usr/share/death_star_2_duel.mp4
 ```
 
 The final filename must be exactly:
 
 ```text
-cloud_city_duel.mp4
+death_star_2_duel.mp4
 ```
 
 Verify that it exists:
 
 ```bash
-ls -lh /usr/share/cloud_city_duel.mp4
+ls -lh /usr/share/death_star_2_duel.mp4
 ```
 
 ---
@@ -95,7 +95,7 @@ ls -lh /usr/share/cloud_city_duel.mp4
 # 7. Test the video normally
 
 ```bash
-mpv --no-audio "/usr/share/cloud_city_duel.mp4"
+mpv --no-audio "/usr/share/death_star_2_duel.mp4"
 ```
 
 Confirm the video works.
@@ -107,7 +107,7 @@ Close mpv afterward.
 # 8. Test mpvpaper manually
 
 ```bash
-mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL "/usr/share/cloud_city_duel.mp4"
+mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL "/usr/share/death_star_2_duel.mp4"
 ```
 
 Expected:
@@ -144,11 +144,11 @@ Replace the entire file with:
 
 ```ini
 [Unit]
-Description=MPV Cloud City Duel Wallpaper
+Description=MPV Death Star II Duel Wallpaper
 After=graphical-session.target
 
 [Service]
-ExecStart=/usr/local/bin/mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL /usr/share/cloud_city_duel.mp4
+ExecStart=/usr/local/bin/mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL /usr/share/death_star_2_duel.mp4
 Restart=always
 RestartSec=2
 
@@ -246,7 +246,7 @@ systemd --user
   ↓
 mpvpaper.service
   ↓
-cloud_city_duel.mp4
+death_star_2_duel.mp4
   ↓
 VIDEO + NO AUDIO + LOOP ∞
 ```
@@ -347,13 +347,13 @@ journalctl --user -u mpvpaper.service -n 30 --no-pager
 Test the video directly:
 
 ```bash
-mpv --no-audio "/usr/share/cloud_city_duel.mp4"
+mpv --no-audio "/usr/share/death_star_2_duel.mp4"
 ```
 
 Test mpvpaper directly:
 
 ```bash
-mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL "/usr/share/cloud_city_duel.mp4"
+mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL "/usr/share/death_star_2_duel.mp4"
 ```
 
 ---
@@ -363,7 +363,7 @@ mpvpaper -o "loop-file=inf --no-audio --hwdec=auto" ALL "/usr/share/cloud_city_d
 Wallpaper:
 
 ```text
-/usr/share/cloud_city_duel.mp4
+/usr/share/death_star_2_duel.mp4
 ```
 
 mpvpaper:
@@ -394,10 +394,18 @@ Interview:
 walloff
 ```
 
-Return to Cloud City:
+Return to the Death Star:
 
 ```bash
 wallon
 ```
 
-Cloud City forever.
+**Death Star II forever.**
+
+> You already have everything you need.
+
+> You do not need to check again.
+
+> Let the urge pass without answering it.
+
+---
