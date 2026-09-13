@@ -400,12 +400,6 @@ Return to the Death Star:
 wallon
 ```
 
-**Death Star II forever.**
-
-> You already have everything you need.
-
-> You do not need to check again.
-
-> Let the urge pass without answering it.
+**I’ll Never Turn to the Dark Side. You Failed, Your Highness. I Am a Jedi like My Father Before Me.**
 
 ---
